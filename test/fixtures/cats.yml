@@ -1,0 +1,24 @@
+# == Schema Information
+#
+# Table name: cats
+#
+#  id         :bigint(8)        not null, primary key
+#  name       :string(255)
+#  age        :integer
+#  text       :string(255)
+#  url        :string(255)
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: { name: 'レオ', age: '1', text: '子猫', url: 'http://blog-imgs-58.fc2.com/b/r/i/britishshorthair1208/blog_import_51638a4a7f9a5.jpg' }
+# column: value
+#
+two: {}
+# column: value

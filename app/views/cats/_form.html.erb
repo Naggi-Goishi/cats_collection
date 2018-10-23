@@ -1,0 +1,12 @@
+<%= form_for @cat do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :age %>
+  <%= f.number_field :age %>
+  <%= f.label :url %>
+  <%= f.text_field :url %>
+  <%= f.label :text %>
+  <%= f.text_field :text %>
+
+  <%= f.submit '編集'%>
+<% end %>
